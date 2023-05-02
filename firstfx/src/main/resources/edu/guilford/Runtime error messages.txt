@@ -1,0 +1,13 @@
+
+try {
+            avatarView = new ImageView(individual.getAvatar());
+        } catch (Exception e) {
+            //if this exception is thrown, then the program will print out the error message
+            // as well as the program will crash and show the user nothing other than the box
+            System. out.println("Error: " + e.getMessage());
+        }
+
+Error: Invalid URL: Illegal char <?> at index 11: avatar name?
+I created this for those that tried inputting an avatar name. It can be replicated for the rest of the classes as nothing will happen to the program if inputted; however, if one submits anything, it should just return this error.
+
+This is the example that is the easiest to replicate hence my reasoning for their inclusion under the avatar label area. 
